@@ -1085,7 +1085,7 @@ video {
 @media (max-width: 400px)
 {
   .youtube-pe {
-    height350px;
+    height: 350px;
   }
 }
 
