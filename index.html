@@ -59,7 +59,7 @@
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="./box-seam.svg" alt="moveit brand icon" height="30"> SpeedyByte</a>
+          <a class="navbar-brand" href="#"><img src="./box-seam.svg" alt="speedybyte brand icon" height="30"> SpeedyByte</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -82,14 +82,24 @@
                   <li>
                     <hr class="dropdown-divider">
                   </li>
-                  <li><a class="dropdown-item" href="#">Delete Account</a></li>
+                  <li><button class="dropdown-item" id="myButton">Delete Account</button>
+                    
+                </li>
                 </ul>
               </li>
             </ul>
           </div>
         </div>
       </nav>
-    
+
+      
+      <div id="myPopup" class="popup">
+        <div class="popup-content">
+            <h1 class="navbar-brand"><img src="./box-seam.svg" alt="speedybyte brand icon" height="60"> SPEEDYBYTE</h1>
+            <p>Mail your Query to <a href="mailto:developer@speedybyte.co.in">developer@speedybyte.co.in</a></p>
+            <button id="closePopup">Close</button>
+        </div>
+    </div>
     
       <div class="px-4 pt-5 my-5 border-bottom home-container1">
           <img alt="image" src="./companylogo.png" class="responsive-img2">
