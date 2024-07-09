@@ -110,7 +110,9 @@ html {
   margin-right: auto;
 }
 
-
+.color-yaad {
+  background-color: #328A68;
+}
 
 @keyframes fadeIn {
   to {
@@ -809,42 +811,42 @@ video {
   margin-right: var(--dl-space-space-unit);
 }
 .home-text33:hover {
-  color: var(--dl-color-turquoise-default);
+  color: #328A68;
 }
 .home-text34 {
   transition: 0.3s;
   margin-right: var(--dl-space-space-unit);
 }
 .home-text34:hover {
-  color: var(--dl-color-turquoise-default);
+  color: #328A68;
 }
 .home-text35 {
   transition: 0.3s;
   margin-right: var(--dl-space-space-unit);
 }
 .home-text35:hover {
-  color: var(--dl-color-turquoise-default);
+  color: #328A68;
 }
 .home-text36 {
   transition: 0.3s;
   margin-right: var(--dl-space-space-unit);
 }
 .home-text36:hover {
-  color: var(--dl-color-turquoise-default);
+  color: #328A68;
 }
 .home-text37 {
   transition: 0.3s;
   margin-right: var(--dl-space-space-unit);
 }
 .home-text37:hover {
-  color: var(--dl-color-turquoise-default);
+  color: #328A68;
 }
 .home-text38 {
   transition: 0.3s;
   white-space: nowrap;
 }
 .home-text38:hover {
-  color: var(--dl-color-turquoise-default);
+  color: #328A68;
 }
 .home-container26 {
   flex: 0 0 auto;
