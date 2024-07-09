@@ -1063,3 +1063,39 @@ video {
     flex-direction: column;
   }
 }
+
+.youtube-pe {
+  height: 576px;
+}
+
+@media (max-width: 550px)
+{
+  .youtube-pe {
+    height: 400px;
+  }
+}
+
+@media (max-width: 350px)
+{
+  .youtube-pe {
+    height: 250px;
+  }
+}
+
+.bot-ka-photo {
+  width: 350px;
+}
+
+@media (max-width: 550px)
+{
+  .bot-ka-photo {
+    width: 250px;
+  }
+}
+
+@media (max-width: 275px)
+{
+  .bot-ka-photo {
+    height: 200px;
+  }
+}
