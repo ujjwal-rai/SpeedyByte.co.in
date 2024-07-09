@@ -30,15 +30,36 @@ function myFunction2() {
   }
 }
 
-document.addEventListener('DOMContentLoaded', (event) => {
-  const imageContainer = document.querySelector('.home-tint1');
-  const homeImage = document.querySelector('.home-image300');
+document.addEventListener("DOMContentLoaded", (event) => {
+  const imageContainer = document.querySelector(".home-tint1");
+  const homeImage = document.querySelector(".home-image300");
 
-  imageContainer.addEventListener('mouseover', () => {
-      homeImage.style.display = 'inline';
+  imageContainer.addEventListener("mouseover", () => {
+    homeImage.style.display = "inline";
   });
 
-  imageContainer.addEventListener('mouseout', () => {
-      homeImage.style.display = 'none';
+  imageContainer.addEventListener("mouseout", () => {
+    homeImage.style.display = "none";
+  });
+});
+
+//
+document.addEventListener("DOMContentLoaded", function () {
+  var myButton = document.getElementById("myButton");
+  var myPopup = document.getElementById("myPopup");
+  var closePopup = document.getElementById("closePopup");
+
+  myButton.addEventListener("click", function () {
+    myPopup.style.display = "flex";
+  });
+
+  closePopup.addEventListener("click", function () {
+    myPopup.style.display = "none";
+  });
+
+  window.addEventListener("click", function (event) {
+    if (event.target == myPopup) {
+      myPopup.style.display = "none";
+    }
   });
 });
