@@ -1065,13 +1065,27 @@ video {
 }
 
 .youtube-pe {
-  height: 576px;
+  height: 700px;
 }
 
-@media (max-width: 550px)
+@media (max-width: 900px)
 {
   .youtube-pe {
-    height: 400px;
+    height: 500px;
+  }
+}
+
+@media (max-width: 700px)
+{
+  .youtube-pe {
+    height: 350px;
+  }
+}
+
+@media (max-width: 400px)
+{
+  .youtube-pe {
+    height350px;
   }
 }
 
