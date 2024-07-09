@@ -32,6 +32,12 @@ html {
   font-style: normal;
 }
 
+.gamja-flower {
+  font-family: speedybyte;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .home-image300 {
   width: 7%;
   object-fit: cover;
