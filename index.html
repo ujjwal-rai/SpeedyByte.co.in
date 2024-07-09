@@ -67,22 +67,22 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#Product-services">Products/Services</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="#about-us">About Us</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Services
+                  More
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#contact-us">Contact Us</a></li>
+                  <li><a class="dropdown-item" href="https://play.google.com/store/apps/details?id=com.speedybyte.walkthru" target="_blank" rel="noreferrer noopener">Download the App</a></li>
                   <li>
                     <hr class="dropdown-divider">
                   </li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item" href="#">Delete Account</a></li>
                 </ul>
               </li>
             </ul>
@@ -95,9 +95,9 @@
           <img alt="image" src="./companylogo.png" class="responsive-img2">
       </div>
 
-      <div class="container border-bottom">
-        <div class="display-4"><img src="./NO_BACKGROUND__GREEN.png" alt="logo walkthru" class="the-real-logo"></div>
-      <p class="col-md-12 text-center">The ultimate closed campus takeaway and delivery app.<br> <br><br>
+      <div class="container border-bottom" id="Product-services">
+        <div class="display-4"><img src="./GREEN_BACKGROUND_ROUND_SQUARE.png" alt="logo walkthru" class="the-real-logo"></div>
+      <p class="col-md-12 text-center">The ultimate closed campus takeaway and delivery app.<br>
         
         <p><span id="dots">Welcome to the ultimate closed campus takeaway and delivery app, your one-stop solution for all cravings and essentials! Whether it's a hunger pang, thirst quench, or urgent need, our platform connects you seamlessly to nearby shops within your vicinity. With just a few taps, you can explore a plethora of options, order food from your favorite restaurants, or snag essential items from local stores. What sets us apart? We offer two convenient modes: opt for takeaway when your order is packed and ready or sit back and relax as our dedicated delivery team ensures your goodies reach your doorstep promptly 🛍️ But...</span><span id="more"> <br> <br>
 
@@ -111,10 +111,10 @@
         <button onclick="myFunction()" id="myBtn">Read more</button>
       </div>
       
-      <div class="container marketing mt-5">
+      <div class="container marketing mt-5 mb-5 text-center">
         <div class="row featurette">
-          <div class="col-md-7">
-            <h1 class="featurette-heading fw-normal lh-1 gamja-flower">AUTOBOT</h1>
+          <div class="display-4"><img src="./Picture1.png" alt="logo autobot" class="the-real-logo"></div>
+          <div class="col-md-12">
             <p>Autobot, our revolutionary autonomous robot currently under development. our small, 
               functional prototype is already excelling in navigating environments and showcasing delivery operations autonomously.</p>
               <p>
@@ -122,61 +122,29 @@
             environments like universities, corporate parks, and hospitals.
               </p>
           </div>
-          <div class="col-md-5">
-            <img class="bot-ka-photo" src="./bot1.jpg" alt="Autobot image">
-          </div>
         </div>
       </div>
 
       
-      <div class="container px-4 py-5" id="featured-3">
-        <h2 class="pb-2 border-bottom">Autobot's Other Uses</h2>
-        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-          <div class="feature col">
-            <div
-              class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3 color-yaad">
-              <img src="./tractor-agriculture-torque-construction-equipment-svgrepo-com.svg" alt="briefcase" height="30">
-            </div>
-            <h3 class="fs-2">Agricultural Innovation</h3>
-            <p>Autobot transforms agriculture by automating tasks such as crop transportation, greenhouse operations, pesticide spraying, irrigation, harvesting, and crop management. This enhances efficiency, reduces labor costs, and promotes sustainable farming practices for improved yields.</p>
-            
-          </div>
-          <div class="feature col">
-            <div
-              class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3 color-yaad">
-              <img src="./restaurant-waiter-svgrepo-com.svg" alt="bus-front" height="30">
-            </div>
-            <h3 class="fs-2">Restaurant Experience</h3>
-            <p>Imagine Autobot, designed to enhance your dining experience by delivering piping hot meals directly to your table in restaurants. This innovative robot-as-a-service is set to revolutionize the restaurant sector in India, ensuring widespread accessibility to maximize convenience and efficiency.</p>
-          </div>
-          <div class="feature col">
-            <div
-              class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3 color-yaad">
-              <img src="./research-3-svgrepo-com.svg" alt="chat-square-heart" height="30">
-            </div>
-            <h3 class="fs-2">Research labs</h3>
-            <p>Autobot's advanced capabilities serve as a catalyst for research in robotics, artificial intelligence, and path planning, particularly in India. Base models of Autobot will also be offered for sale to universities across India, enabling hands-on learning and fostering innovation within the academic community.</p>
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div id="carouselExampleIndicators" class="carousel slide">
+      
+      <div class="container carousel slide mt-5" div id="carouselExampleAutoplaying" data-bs-ride="carousel">
+        <div id="carouselExampleAutoplaying" class="carousel slide">
           <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active"
               aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1"
               aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2"
               aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+            <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="3"
               aria-label="Slide 4"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+            <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="4"
               aria-label="Slide 5"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+            <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="5"
               aria-label="Slide 6"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6"
+            <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="6"
               aria-label="Slide 7"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7"
+            <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="7"
               aria-label="Slide 8"></button>
           </div>
           <div class="carousel-inner">
@@ -211,17 +179,77 @@
                 <img src="./bot5.jpg" class="d-block w-100" alt="Autonomous-bot">
             </div>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
             data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
           </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
             data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
         </div>
+      </div>
+
+      <div class="container px-4 py-5 border-bottom" id="featured-3">
+        <h2 class="pb-2 border-bottom">Autobot's Other Uses</h2>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+          <div class="feature col">
+            <div
+              class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3 color-yaad">
+              <img src="./tractor-agriculture-torque-construction-equipment-svgrepo-com.svg" alt="briefcase" height="30">
+            </div>
+            <h3 class="fs-2">Agricultural Innovation</h3>
+            <p>Autobot transforms agriculture by automating tasks such as crop transportation, greenhouse operations, pesticide spraying, irrigation, harvesting, and crop management. This enhances efficiency, reduces labor costs, and promotes sustainable farming practices for improved yields.</p>
+            
+          </div>
+          <div class="feature col">
+            <div
+              class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3 color-yaad">
+              <img src="./restaurant-waiter-svgrepo-com.svg" alt="bus-front" height="30">
+            </div>
+            <h3 class="fs-2">Restaurant Experience</h3>
+            <p>Imagine Autobot, designed to enhance your dining experience by delivering piping hot meals directly to your table in restaurants. This innovative robot-as-a-service is set to revolutionize the restaurant sector in India, ensuring widespread accessibility to maximize convenience and efficiency.</p>
+          </div>
+          <div class="feature col">
+            <div
+              class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3 color-yaad">
+              <img src="./research-3-svgrepo-com.svg" alt="chat-square-heart" height="30">
+            </div>
+            <h3 class="fs-2">Research labs</h3>
+            <p>Autobot's advanced capabilities serve as a catalyst for research in robotics, artificial intelligence, and path planning, particularly in India. Base models of Autobot will also be offered for sale to universities across India, enabling hands-on learning and fostering innovation within the academic community.</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-lg-8 mx-auto p-4 py-md-5">
+      
+        <main>
+          <h1 class="text-body-emphasis" id="about-us">About Us</h1>
+          <p class="fs-5 col-md-8">We are a team of three passionate students from IIT Ropar dedicated to revolutionizing the way campus cafeterias and nearby shops operate through takeaway and delivery services. 
+            In early 2023, Shubham Choudhary (Founder, CEO), Mahir Kumar (Co-founder, CMO), and Ujjwal Rai (Co-founder) conceived an idea to transform the dining and shopping experience on campus. Recognizing the need 
+            for a seamless and efficient solution, we embarked on creating a platform that would cater to the unique needs of closed campuses, including hospitals, colleges, corporate campuses, and more. We incorporated 
+            our company on October 17, 2023, marking the beginning of our journey to enhance delivery and takeway services in these environments.</p>
+            <div class="col-md-4"></div>
+          <hr class="col-3 col-md-2 mb-5">
+      
+          <div class="row g-5">
+            <div class="col-md-6">
+              <h2 class="text-body-emphasis">Careers</h2>
+              <p>Send resumes directly at <br>
+
+                <a href="mailto:developer@speedybyte.co.in">📧 developer@speedybyte.co.in</a></p>
+            </div>
+            <div class="col-md-6">
+              <h2 class="text-body-emphasis" id="contact-us">Contact Us</h2>
+              <p><a href="mailto:developer@speedybyte.co.in"> 📧 developer@speedybyte.co.in </a><br> <br>
+
+                Room No: 305, IIT Ropar Tbif, Top Floor, M Visvesvaraya, Ropar, Rupnagar, Punjab - 140001</p>
+            </div>
+          </div>
+        </main>
       </div>
 
           <div class="home-cta mt-5">
@@ -263,6 +291,8 @@
               </div>
             </div>
           </div>
+
+      
     <div class="home-footer">
         <footer class="home-container24">
           <img alt="image" src="./companylogo.png" class="home-image7 responsive-img">
